@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 268
     height: 510.66666
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -299,8 +299,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 6.666667
-    y: 594
+    x: 0
+    y: 583.3334
     width: 1097
     height: 330.33334
   m_SerializedDataModeController:
@@ -334,14 +334,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Saturday 255\Desktop\Michael K\MK_U5Replicate
+  m_LastProjectPath: C:\Users\Saturday 255\Documents\GitHub\Sea-Heist-64
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a25d0000
-    m_LastClickedID: 23970
-    m_ExpandedIDs: 00000000985d00009a5d00009c5d00009e5d0000
+    m_SelectedIDs: 0a5e0000
+    m_LastClickedID: 24074
+    m_ExpandedIDs: 00000000e65d0000e85d0000ea5d0000ec5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000985d00009a5d00009c5d00009e5d0000
+    m_ExpandedIDs: 00000000e65d0000e85d0000ea5d0000ec5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,8 +394,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ac0b0000
-    m_LastClickedInstanceID: 2988
+    m_SelectedInstanceIDs: c60b0000
+    m_LastClickedInstanceID: 3014
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -466,7 +466,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 195.33331
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -509,9 +509,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff705c0000b85c0000ca5c0000e45c0000
+      m_SelectedIDs: aa5c0000
+      m_LastClickedID: 23722
+      m_ExpandedIDs: 48daffff30fbffffa05c0000f05c0000025d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -555,8 +555,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -21065.334
-    y: -21303.334
+    x: 268
+    y: 72.66667
     width: 828
     height: 489.66666
   m_SerializedDataModeController:
@@ -878,9 +878,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -63.99839, y: 7.7406063, z: 130.9048}
+    m_Target: {x: 50.86679, y: 1.6514381, z: 45.683464}
     speed: 2
-    m_Value: {x: -63.99839, y: 7.7406063, z: 130.9048}
+    m_Value: {x: 50.86679, y: 1.6514381, z: 45.683464}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -926,20 +926,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.019433124, y: 0.46200478, z: 0.010732995, w: -0.8868269}
+    m_Target: {x: -0.07371172, y: 0.043201193, z: -0.0027017046, w: -0.9965769}
     speed: 2
-    m_Value: {x: 0.019429207, y: 0.46191168, z: 0.010730832, w: -0.8866481}
+    m_Value: {x: -0.074690595, y: 0.043188263, z: -0.002744296, w: -0.9962673}
   m_Size:
-    m_Target: 70.710686
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 70.710686
+    m_Value: 0.8660676
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.94052994
-    m_SpeedNormalized: 0.46999997
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1022,9 +1022,9 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
