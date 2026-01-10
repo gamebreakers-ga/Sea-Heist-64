@@ -14,14 +14,16 @@ public class GuardScript : MonoBehaviour
 
     public GameObject[] PatrolRoute;
     public int NodeInPatrol = 0;
-    public PatrolingStatus PatrolingState;
-    public PatrolingStatus LastPatrolState;
-    public GuardStatus Status;
+    public PatrolingStatus PatrolingState = PatrolingStatus.Enroute;
+    public PatrolingStatus LastPatrolState = PatrolingStatus.Enroute;
+    public GuardStatus Status = GuardStatus.Calm;
     public float TimeAtSentry;
     public NavMeshAgent nma;
     float fireLimit = 0;
 
     public float DetectionLevel;
+    public float LastAlert = 6;
+    public Vector3 AlertPosition; 
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
@@ -33,6 +35,27 @@ public class GuardScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        LastAlert += Time.deltaTime;
+        if (LastAlert > 5 && DetectionLevel > 0)
+        {
+            DetectionLevel -= 0.1f;
+        }
+
+        if (DetectionLevel >= 33f)
+        {
+            PatrolingState = PatrolingStatus.Interrupted;
+            
+            if (DetectionLevel > 66f)
+            {
+                Status = GuardStatus.Investigative;
+            }
+        }
+
+        if (DetectionLevel >= 100)
+        {
+            Detected = true;
+        }
+
         if (PatrolingState == PatrolingStatus.Enroute && Vector3.Distance(nma.destination, transform.position) <= 2)
         {
             nma.isStopped = true;
@@ -56,7 +79,11 @@ public class GuardScript : MonoBehaviour
         {
             if (Status == GuardStatus.Calm)
             {
-
+                transform.LookAt(AlertPosition);
+                nma.isStopped = true;
+            } else if (Status == GuardStatus.Investigative)
+            {
+                nma.Move(AlertPosition);
             }
         }
 
@@ -92,15 +119,11 @@ public class GuardScript : MonoBehaviour
         return PatrolRoute[NodeInPatrol];
     }
 
-    public void Lure(Vector3 Position, float increaseBy = 5f)
+    public void Lure(Vector3 Position)
     {
-        DetectionLevel += Mathf.Abs(increaseBy);
-        if (DetectionLevel > 33f)
-        {
-
-        }
+        DetectionLevel += 33f;
+        LastAlert = 0;
     }
-
     public enum GuardStatus 
     {
         Calm,

@@ -17,10 +17,10 @@ public class GuardDetectionScript : MonoBehaviour
     {
         if (InView)
         {
-            guardScript.DetectionLevel += Time.deltaTime;
+            guardScript.DetectionLevel += 1;
         }
 
-        if (guardScript.DetectionLevel >= 5)
+        if (guardScript.DetectionLevel >= 100)
         {
             guardScript.Detected = true;
         }

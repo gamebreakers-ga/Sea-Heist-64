@@ -8,17 +8,26 @@ public class FirstPersonControllerScript : MonoBehaviour
     public float speed;
     public float jump;
 
+    public LayerMask groundMask;
+
     public bool itemHeld;
+    public GameObject currentItem;
     public Transform cameraPosition;
+    public LayerMask interactMask;
+    public LayerMask EnemyLayer;
+
     public Rigidbody rigidBody;
 
-    public LayerMask groundMask;
+    public float throwPower;
+    public float throwMultiplier;
+    public Slider powerMeter;
 
     // Start is called before the first frame update
     void Start()
     {
         cameraPosition = GameObject.Find("Main Camera").transform;
         rigidBody = GetComponent<Rigidbody>();
+        powerMeter.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,6 +43,48 @@ public class FirstPersonControllerScript : MonoBehaviour
         {
             rigidBody.AddForce(jump * Vector3.up, ForceMode.Impulse); // Impuse makes AddForce take the mass of the rb into account.
         }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            RaycastHit[] Targets = Physics.SphereCastAll(transform.position, 20f, transform.forward, 7);
+
+            foreach (RaycastHit hit in Targets)
+            {
+                GuardScript GS = hit.collider.gameObject.GetComponent<GuardScript>();
+                if (GS != null && GS.Status != GuardScript.GuardStatus.Alert)
+                {
+                    GS.Lure(transform.position);
+                    Debug.Log($"Guard Lured: {GS.DetectionLevel}");
+                    break;
+                }
+            }
+            
+        }
+
+        powerMeter.value = throwPower;
+
+        if (Input.GetKeyDown(KeyCode.E) && itemHeld)
+        {
+            throwPower = 0;
+            powerMeter.gameObject.SetActive(true);
+        }
+        if (Input.GetKey(KeyCode.E) && itemHeld)
+        {
+            throwPower = Mathf.PingPong(Time.time, 1);
+        }
+        if (Input.GetKeyUp(KeyCode.E) && itemHeld)
+        {
+            itemHeld = false;
+            currentItem.GetComponent<HolderScript>().isHeld = false;
+            currentItem.GetComponent<Rigidbody>().useGravity = true;
+            currentItem.GetComponent<Rigidbody>().AddForce(throwMultiplier * throwPower * cameraPosition.forward, ForceMode.Impulse);
+            currentItem = null;
+            powerMeter.gameObject.SetActive(false);
+            throwPower = 0;
+        }
+
+
+        pickup();
     }
 
     bool IsGrounded()
@@ -43,5 +94,31 @@ public class FirstPersonControllerScript : MonoBehaviour
             return hit.collider.gameObject.CompareTag("Ground");
         }
         return false;    
+    }
+
+    void pickup()
+    {
+        if (Input.GetKeyDown(KeyCode.F))       
+        {
+            if (!itemHeld)
+            {
+                if (Physics.Raycast(cameraPosition.position, cameraPosition.forward, out RaycastHit reach, 1.5f, interactMask))
+                {
+                    itemHeld = true;
+                    currentItem = reach.collider.gameObject;
+                    currentItem.GetComponent<HolderScript>().isHeld = true;
+                    currentItem.GetComponent<Rigidbody>().useGravity = false;
+                }
+            }
+            else
+            {
+                itemHeld = false;
+                currentItem.GetComponent<HolderScript>().isHeld = false;
+                currentItem.GetComponent<Rigidbody>().useGravity = true;
+                currentItem = null;
+            }
+        }
+
+
     }
 }
