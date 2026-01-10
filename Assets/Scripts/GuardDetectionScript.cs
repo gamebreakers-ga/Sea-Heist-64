@@ -17,7 +17,7 @@ public class GuardDetectionScript : MonoBehaviour
     {
         if (InView)
         {
-            guardScript.DetectionLevel += 1;
+            guardScript.DetectionLevel += 0.2f;
         }
 
         if (guardScript.DetectionLevel >= 100)

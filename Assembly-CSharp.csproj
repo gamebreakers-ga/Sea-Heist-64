@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3EB786D6-60AF-83FF-8368-CC840101FC0A}</ProjectGuid>
+    <ProjectGuid>{26475A33-5300-78DF-74EB-D478150678B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,7 +67,6 @@
     <Compile Include="Assets\Scripts\FirstPersonControllerScript.cs" />
     <Compile Include="Assets\Scripts\GuardScript.cs" />
     <Compile Include="Assets\Scripts\GuardDetectionScript.cs" />
-    <Compile Include="Assets\Scripts\HolderScript.cs" />
     <Compile Include="Assets\Scripts\FollowScript.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1050,27 +1049,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{3886820A-2D97-04D3-491B-8797C0BC959C}</Project>
+      <Project>{2EFA602F-72CF-02DB-4F36-B694A7B90A9E}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{C55B432E-787C-A746-697D-15FAB9132229}</Project>
+      <Project>{6EBBC15A-BEC2-A752-7CBF-526D120C60F2}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{02A23835-10C1-4EFD-CCCA-53F837B982E2}</Project>
+      <Project>{B2FA237D-D92F-E63A-440F-30847B4FF4CB}</Project>
       <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="CFXREditor.csproj">
-      <Project>{7390AE59-8EB3-16F8-3135-5494DC3F80CD}</Project>
+      <Project>{33F71DC6-B83C-577E-B5B0-851BAA79F6ED}</Project>
       <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{AD9037B9-B6E2-587F-0339-5AE9E3557177}</Project>
+      <Project>{6A421D58-8FFB-D5F5-27B0-A2A90D40889C}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{F1FA2719-4FCC-13C2-0DDD-2608FCAE95DC}</Project>
+      <Project>{8565193E-C8D6-BC0B-09BA-69F8D279796E}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
   </ItemGroup>

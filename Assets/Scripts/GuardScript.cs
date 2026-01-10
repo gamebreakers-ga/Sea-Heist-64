@@ -13,7 +13,7 @@ public class GuardScript : MonoBehaviour
     public float RotationSpeed;
 
     public GameObject[] PatrolRoute;
-    public int NodeInPatrol = 0;
+    public int NodeInPatrol;
     public PatrolingStatus PatrolingState = PatrolingStatus.Enroute;
     public PatrolingStatus LastPatrolState = PatrolingStatus.Enroute;
     public GuardStatus Status = GuardStatus.Calm;
@@ -27,6 +27,8 @@ public class GuardScript : MonoBehaviour
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
+        NodeInPatrol = Random.Range(0, PatrolRoute.Length);
+        Player.GetComponent<FirstPersonControllerScript>().GuardScripts.Add(this);
         nma = GetComponent<NavMeshAgent>();
         nma.destination = PatrolRoute[NodeInPatrol].transform.position;
         PatrolingState = PatrolingStatus.Enroute;
@@ -36,7 +38,7 @@ public class GuardScript : MonoBehaviour
     void Update()
     {
         LastAlert += Time.deltaTime;
-        if (LastAlert > 5 && DetectionLevel > 0)
+        if (LastAlert > 5 && DetectionLevel > 0 && !Detected)
         {
             DetectionLevel -= 0.1f;
         }

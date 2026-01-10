@@ -370,7 +370,6 @@
 "Assets/Scripts/GMScript.cs"
 "Assets/Scripts/GuardDetectionScript.cs"
 "Assets/Scripts/GuardScript.cs"
-"Assets/Scripts/HolderScript.cs"
 "Assets/Scripts/NodeScript.cs"
 "Assets/Unit5Assets/3D Objects/BTM_Items_Gems/Don'tTouch/Scripts/SimpleGemsAnim.cs"
 -langversion:9.0
