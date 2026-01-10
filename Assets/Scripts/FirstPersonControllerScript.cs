@@ -82,5 +82,6 @@ public class FirstPersonControllerScript : MonoBehaviour
             }
         }
         DetectionSlider.value = LargestDetection;
+        DetectionSlider.enabled = (LargestDetection != 0);
     }
 }
