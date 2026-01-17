@@ -22,12 +22,12 @@ public class HealScript : MonoBehaviour
         {
             player playerh = collision.gameObject.GetComponent<player>();
 
-            if (playerh != null && playerh < 90)
+            if (playerh != null && playerh.health < 90)
             {
                 playerh.health += 10;
             }
-            if(playerh >= 90){
-                playerh = 100;
+            if(playerh.health >= 90){
+                playerh.health = 100;
             }
 
             Destroy(gameObject);

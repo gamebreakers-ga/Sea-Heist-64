@@ -9,6 +9,15 @@ TagManager:
   - Throwable
   - Target
   - Special Target
+  - bullet
+  - store
+  - enemy
+  - notouch
+  - time
+  - boss
+  - door
+  - key
+  - heal
   layers:
   - Default
   - TransparentFX
