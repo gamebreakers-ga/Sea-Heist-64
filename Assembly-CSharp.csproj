@@ -62,12 +62,21 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\GMScript.cs" />
-    <Compile Include="Assets\Scripts\NodeScript.cs" />
+    <Compile Include="Assets\bombparticals.cs" />
     <Compile Include="Assets\Unit5Assets\3D Objects\BTM_Items_Gems\Don&apos;tTouch\Scripts\SimpleGemsAnim.cs" />
+    <Compile Include="Assets\CameraMovement.cs" />
+    <Compile Include="Assets\ItemController.cs" />
+    <Compile Include="Assets\player.cs" />
     <Compile Include="Assets\Scripts\FirstPersonControllerScript.cs" />
+    <Compile Include="Assets\boss.cs" />
     <Compile Include="Assets\Scripts\GuardScript.cs" />
     <Compile Include="Assets\Scripts\GuardDetectionScript.cs" />
+    <Compile Include="Assets\bomb.cs" />
+    <Compile Include="Assets\explosion.cs" />
     <Compile Include="Assets\Scripts\FollowScript.cs" />
+    <Compile Include="Assets\Bullet.cs" />
+    <Compile Include="Assets\StoreManagerScript.cs" />
+    <Compile Include="Assets\GMscript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

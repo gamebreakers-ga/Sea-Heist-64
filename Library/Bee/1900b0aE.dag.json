@@ -448,7 +448,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -2586,7 +2586,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 53022,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -3275,7 +3275,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 100943,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3975,7 +3975,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 160084,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -4581,7 +4581,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 205469,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/CFXR.WelcomeScreen.UnityAdditionalFile.txt"
@@ -5136,7 +5136,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 247993,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/CFXREditor.UnityAdditionalFile.txt"
@@ -5677,7 +5677,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 290877,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/CFXRRuntime.UnityAdditionalFile.txt"
@@ -6203,7 +6203,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 332265,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/KinoBloom.Runtime.UnityAdditionalFile.txt"
@@ -6725,7 +6725,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 373320,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.UnityAdditionalFile.txt"
@@ -7271,7 +7271,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 416904,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.UnityAdditionalFile.txt"
@@ -7798,7 +7798,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 458370,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.UnityAdditionalFile.txt"
@@ -8339,7 +8339,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 501353,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.UnityAdditionalFile.txt"
@@ -8909,7 +8909,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 547098,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -9767,7 +9767,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 620545,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -10326,7 +10326,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 665512,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Settings.Editor.UnityAdditionalFile.txt"
@@ -10876,7 +10876,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 709188,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.UnityAdditionalFile.txt"
@@ -11428,7 +11428,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 753723,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.UnityAdditionalFile.txt"
@@ -11969,7 +11969,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 797028,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -12550,7 +12550,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 843255,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -13145,7 +13145,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 890511,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -13690,7 +13690,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 933809,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -14641,7 +14641,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1028602,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -15203,7 +15203,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1073691,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/CFXRDemo.UnityAdditionalFile.txt"
@@ -15731,7 +15731,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1114965,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/ToonyColorsPro.Demo.Editor.UnityAdditionalFile.txt"
@@ -16271,7 +16271,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1157753,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.UnityAdditionalFile.txt"
@@ -16863,7 +16863,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1201626,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -17423,7 +17423,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1244459,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.UnityAdditionalFile.txt"
@@ -18055,7 +18055,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1291268,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -18662,7 +18662,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1338409,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -19493,7 +19493,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1405165,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -20522,7 +20522,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1504430,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -21450,7 +21450,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1594616,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Updater.UnityAdditionalFile.txt"
@@ -22022,7 +22022,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1638208,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -22776,7 +22776,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1701515,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -23337,7 +23337,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1746189,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -23940,7 +23940,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1790928,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -24565,7 +24565,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1842404,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -25145,7 +25145,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1886171,
       "PayloadLength": 51,
-      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 255\\Document",
+      "PayloadDebugContentSnippet": "C:\\Users\\Saturday 250\\Document",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -25157,7 +25157,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1886308,
-      "PayloadLength": 33638,
+      "PayloadLength": 33833,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -25169,7 +25169,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1920033,
+      "PayloadOffset": 1920228,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -25425,13 +25425,22 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/bomb.cs",
+        "Assets/bombparticals.cs",
+        "Assets/boss.cs",
+        "Assets/Bullet.cs",
+        "Assets/CameraMovement.cs",
+        "Assets/explosion.cs",
+        "Assets/GMscript.cs",
+        "Assets/ItemController.cs",
+        "Assets/player.cs",
         "Assets/Scripts/BulletScript.cs",
         "Assets/Scripts/FirstPersonControllerScript.cs",
         "Assets/Scripts/FollowScript.cs",
         "Assets/Scripts/GMScript.cs",
         "Assets/Scripts/GuardDetectionScript.cs",
         "Assets/Scripts/GuardScript.cs",
-        "Assets/Scripts/NodeScript.cs",
+        "Assets/StoreManagerScript.cs",
         "Assets/Unit5Assets/3D Objects/BTM_Items_Gems/Don'tTouch/Scripts/SimpleGemsAnim.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
@@ -25700,7 +25709,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1920129,
+      "PayloadOffset": 1920324,
       "PayloadLength": 9902,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -27096,7 +27105,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\CFXRDemo.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\CFXRRuntime.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\KinoBloom.Runtime.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"C:\\Users\\Saturday 255\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\CFXRDemo.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\CFXRRuntime.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\KinoBloom.Runtime.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"C:\\Users\\Saturday 250\\Documents\\GitHub\\Sea-Heist-64\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -27421,6 +27430,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/Users/Saturday 255/Documents/GitHub/Sea-Heist-64/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/Users/Saturday 250/Documents/GitHub/Sea-Heist-64/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
