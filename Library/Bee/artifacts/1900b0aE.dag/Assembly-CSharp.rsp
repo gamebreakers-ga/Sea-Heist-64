@@ -371,6 +371,7 @@
 "Assets/CameraMovement.cs"
 "Assets/explosion.cs"
 "Assets/GMscript.cs"
+"Assets/HealScript.cs"
 "Assets/ItemController.cs"
 "Assets/player.cs"
 "Assets/Scripts/BulletScript.cs"

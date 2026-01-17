@@ -99,6 +99,8 @@ MonoBehaviour:
   timer: 0
   gm: {fileID: 0}
   explosion: {fileID: 6435625052957602244, guid: 7352905064ec2ca4c8dc17e54e76e12f, type: 3}
+  healingPrefab: {fileID: 7737291695261638604, guid: 011fd38e5461dc54cbc79d7e7535f4ac, type: 3}
+  healSpawnChance: 0.3
 --- !u!54 &-984019648337003251
 Rigidbody:
   m_ObjectHideFlags: 0

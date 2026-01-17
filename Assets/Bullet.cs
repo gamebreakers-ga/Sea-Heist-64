@@ -7,6 +7,9 @@ public class Bullet : MonoBehaviour
     public float timer;
     public GameObject gm;
     public GameObject explosion;
+    public GameObject healingPrefab;
+    [Range(0f, 1f)]
+    public float healSpawnChance = 0.3f;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +32,18 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.tag == "enemy")
         {
+            if (Random.value <= healSpawnChance)
+            {
+                Instantiate(
+                    healingPrefab,
+                    collision.transform.position,
+                    Quaternion.identity
+                );
+            }
             Destroy(collision.gameObject);
             gm.GetComponent<GMscript>().score += 1;
             Destroy(gameObject);
+
         }
         if (collision.gameObject.tag == "notouch")
         {

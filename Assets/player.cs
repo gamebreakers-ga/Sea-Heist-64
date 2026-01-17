@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
+    public int health;
+    public bool open;
     public Vector3 moveDirection;
     public float speed;
 
@@ -53,9 +55,14 @@ public class player : MonoBehaviour
     public GameObject redicon;
     public GameObject blueicon;
     public GameObject greenicon;
+
+    public bool key;
     // Start is called before the first frame update
     void Start()
     {
+        health = 100;
+        open = false;
+        key=false;
         ko = false;
         crouch = false;
         newH = 0.0000000000f;
@@ -279,9 +286,16 @@ public class player : MonoBehaviour
             ko = true;
             getuptimer = 0;
         }
+        if (collision.gameObject.tag == "key"){
+            key = true;
+        }
         if (collision.gameObject.tag == "store")
         {
             atstore = true;
+        }
+        if (collision.gameObject.tag == "door" && key && !open)
+        {
+            StartCoroutine(DoorTimer(collision.transform));
         }
     }
     private void OnCollisionExit(Collision collision)
@@ -291,4 +305,23 @@ public class player : MonoBehaviour
             atstore = false;
         }
     }
+    IEnumerator DoorTimer(Transform door)
+    {
+        open = true;
+
+        Collider doorCollider = door.GetComponent<BoxCollider>();
+
+        door.Rotate(0f, 90f, 0f);
+        doorCollider.enabled = false;
+
+        yield return new WaitForSeconds(3f);
+
+        door.Rotate(0f, -90f, 0f);
+        doorCollider.enabled = true;
+
+        open = false;
+    }
+
+
+
 }
